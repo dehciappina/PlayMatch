@@ -170,6 +170,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .xbox_block {
     background:#107c10;
 }
+.windows_block {
+    background:#00a1f1;
+}
 .apple_block {
     background:#999999;
 }
@@ -183,6 +186,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 .adventure {
     background:#10D536;
+}
+.fps {
+    background: darkblue;
+}
+.simulation {
+    background: tomato;
 }
 
 .genres .inner_block > aside {
