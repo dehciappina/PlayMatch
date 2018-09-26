@@ -47,6 +47,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     margin-top: 9vh;
     position: relative;
+    overflow: hidden;
 }
 
 .top_profile_info article {
@@ -60,8 +61,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .top_profile_photo_area img {
-    width: 30vh;
-    height: 30vh;
+    width: 25vh;
+    height: 25vh;
     object-fit: cover;
     clip-path: ellipse(50% 50%);
 
@@ -95,7 +96,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     width: 90%;
     background: rgba(0,0,0,0.8);
     position: relative;
-    min-height: 25vh;
+    min-height: 28vh;
     color: white;
 }
 
@@ -190,8 +191,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-::-webkit-scrollbar {
-    width: 4px;
+::-webkit-scrollbar:horizontal {
+    width: 0px;
 }
 
 -moz-scrollbar-track {
