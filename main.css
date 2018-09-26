@@ -175,6 +175,23 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+.mmo {
+    background:deepskyblue;
+}
+.survival {
+    background:#650000;
+}
+.adventure {
+    background:#10D536;
+}
+
+.genres .inner_block > aside {
+    height: 100%;
+    background: none !important;
+    font-size: 4.5vh;
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.6) !important;
+}
+
 .background {
     background:var(--colorful-background1);
     position:fixed;
