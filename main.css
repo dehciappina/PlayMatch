@@ -41,11 +41,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .top_profile_info {
-    height: 40vh;
+    height: 32vh;
     background: #eee;
-    display:flex;
+    display: flex;
     flex-direction: row;
-    margin-top: 9vh;
+    margin-top: 10.5vh;
     position: relative;
     overflow: hidden;
 }
