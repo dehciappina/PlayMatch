@@ -104,7 +104,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     width: 90%;
     opacity: 0.5;
     position: absolute;
-    top: 10%;
+    top: 2.5vh;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -140,7 +140,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     height: 100%;
     width: auto;
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     right: -5vw;
     left: -5vw;
     display: -webkit-inline-box;
@@ -172,9 +172,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .inner_game > img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: translateX(-25%);
 }
 
 .inner_game > aside {
